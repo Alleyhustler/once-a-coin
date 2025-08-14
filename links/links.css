@@ -1,0 +1,453 @@
+@font-face {
+    font-family: 'Comic Mono';
+    src: url(../fonts/ComicMono.ttf) format(truetype);
+}
+
+@font-face {
+    font-family: 'Uncle Stinky Regular';
+    src: url(../fonts/UncleStinkyRegular.otf) format(opentype);
+}
+
+@font-face {
+    font-family: 'Special Elite';
+    src: url(../fonts/SpecialElite-Regular.ttf) format(truetype);
+}
+
+@font-face {
+    font-family: 'NEC AP3';
+    src: url(../fonts/Web437_Nix8810_M16.woff) format(woff);
+}
+
+@font-face {
+    font-family: 'Astonpoliz';
+    src: url(../fonts/Astonpoliz.otf) format(opentype);
+}
+
+@font-face {
+    font-family: 'Neuropol';
+    src: url(../fonts/Neuropol.otf) format(opentype);
+}
+
+@font-face {
+    font-family: 'National Park';
+    src: url(../fonts/NationalPark-Regular.otf) format(opentype);
+}
+
+@font-face {
+    font-family: 'Distro';
+    src: url(../fonts/DISTROH_.ttf) format(truetype);
+}
+
+@font-face {
+    font-family: 'Free Pixel';
+    src: url(../fonts/FreePixel.ttf) format(truetype);
+}
+
+@font-face {
+    font-family: 'Sysfont';
+    src: url(../fonts/sysfont.otf) format(opentype);
+}
+
+@font-face {
+    font-family: 'DigiBop';
+    src: url(../fonts/DigiBop.ttf) format(truetype);
+}
+
+@font-face {
+    font-family: 'DS';
+    src: url(../fonts/DS.ttf) format(truetype);
+}
+
+@font-face {
+    font-family: 'Mansalva';
+    src: url(../fonts/Mansalva-Regular.ttf) format(truetype);
+}
+
+@font-face {
+    font-family: 'Yukari';
+    src: url(../fonts/yukari.ttf) format(truetype);
+}
+
+html {
+    background-color: #2d1c15;
+    background-image: radial-gradient(circle at 10px 10px, gray 1px, transparent 0);
+    background-size: 15px 15px;
+}
+
+body {
+    text-align: left;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+
+.inline-grid {
+    display: grid; 
+    grid-template-columns: repeat(3, auto); 
+    grid-template-rows: repeat(3, auto);
+}
+
+main .box {
+    margin-bottom: -50px;
+}
+
+footer {
+    margin-top: 50px;
+}
+
+/* SNEEK */
+
+.sneek * {
+    font-family: 'Comic Mono', monospace;
+    color: #035F31;
+    line-height: 1.5;
+}
+
+.sneek.box {
+    background-color: #f0e5d2;
+}
+
+.sneek a {
+    color: #004F9E;
+    text-decoration: underline dotted 0.1em;
+}
+
+.sneek a:hover {
+    text-decoration: wavy;
+    color: #006DDB;
+}
+
+.sneek a:focus {
+    text-decoration-style: wavy;
+    color: #40992E;
+}
+
+/* RH0MBUS0FRUIN */
+.rh0mbus0fruin * {
+    font-family: 'Uncle Stinky Regular', cursive;
+    color: white;
+}
+
+.rh0mbus0fruin.box {
+    background-image: url(../images/links-images/darkpurple.png);
+}
+
+/* ADS */
+.notice * {
+    font-family: 'Times New Roman', serif;
+}
+
+.notice.box {
+    background-image: url(../images/links-images/weatheredpaper.jpg);
+    
+}
+
+/* VAMPIRE'S NEST */
+.lupinus * {
+    font-family: 'Special Elite', monospace;
+    color: #f17b11;
+}
+
+.lupinus.box {
+    background-image: url(../images/links-images/black.jpg);
+}
+
+.lupinus a {
+    color: #cfbb9c;
+    text-decoration: none;
+}
+
+.lupinus a:hover {
+    color: #cfbb9c;
+    text-decoration: underline;
+}
+
+/* XANDRA */
+.xandra * {
+    font-family: 'Verdana', sans-serif;
+    line-height: 1.5rem;
+    color: #D9EDBF;
+}
+
+.xandra a {
+    font-family: 'Arial', sans-serif;
+    color: #94CF54;
+    font-weight: 600;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+
+.xandra.box {
+    background-image: url(../images/links-images/cushion.png);
+    background-size: cover;
+}
+
+/* VEGA */
+.vega * {
+    color: rgba(51, 255, 0, 1);
+    font-family: "Consolas", monospace;
+}
+
+.vega p, .vega h2 {
+    background-color: black;
+    padding: 5px
+}
+
+.vega.box {
+    background-color: black;
+    background-image: url(../images/links-images/shoulder.gif);
+    background-size: cover;
+}
+
+/* DIMDEN */
+.dimden * {
+    color: white;
+    font-family: 'NEC AP3', monospace;
+    font-weight: 700;
+}
+
+.dimden.box {
+    background-color: black;
+}
+
+.dimden a {
+    color: #2c9080;
+    text-shadow: 0 0 20px #08bd9882;
+    text-decoration: none;
+}
+
+.dimden a:hover {
+    text-decoration: underline;
+}
+
+/* MANYFACE */
+.manyface.box {
+    background-image: url('../images/links-images/oildark.jpg');
+}
+
+.manyface * {
+    background-color: black;
+    color: white;
+    font-family: 'Astonpoliz', sans-serif;
+}
+
+.manyface h2 {
+    font-family: 'Neuropol', sans-serif;
+    color: #F21699;
+}
+
+.manyface p, .manyface h2 {
+    padding: 5px;
+}
+
+.manyface a {
+    color: #8FCC06;
+    font-weight: bold;
+}
+
+.manyface a:hover {
+    text-decoration: underline;
+}
+
+/* NENRIKIDO */
+.nenrikido.box {
+    background-color: #f3f3f3;
+    
+}
+
+.nenrikido * {
+    font-family: 'National Park', sans-serif;
+    color: #3d03fc;
+    line-height: 1.5;
+}
+
+.nenrikido h2 {
+    font-family: 'Distro', sans-serif;
+}
+
+/* MENTAL LABOUR */
+.mental-labour.box {
+    background-color: black;
+}
+
+.mental-labour * {
+    font-family: 'Cambria';
+    color: rgb(250, 242, 226);
+}
+
+.mental-labour a, .mental-labour a em {
+    color: rgb(231, 204, 151);
+}
+
+.mental-labour h2 {
+    color: rgb(112, 84, 73);
+}
+
+/* SHINYEXE */
+.shinyexe.box {
+    background-image: url('../images/links-images/pokedarkheader.png');
+    color: white;
+}
+
+.shinyexe * {
+    background-color: black;
+    color: white;
+    font-family: 'Free Pixel', monospace;
+    
+}
+
+.shinyexe p, .shinyexe h2 {
+    padding: 5px;
+    border: 2px ridge #4900FF;
+    box-shadow: 3px 3px #9600FF, -3px -3px #FF00C1;
+}
+
+.shinyexe a {
+    color: hotpink;
+}
+
+.shinyexe a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+/* SWEETFISH */
+.sweetfish.box {
+    background-color: #f5f5f5;
+    background-image: url('../images/links-images/bg.png');
+    background-attachment: fixed;
+}
+
+.sweetfish * {
+    color: #333;
+    font-family: system-ui, sans-serif;
+}
+
+.sweetfish p, .sweetfish h2 {
+    line-height: 1.25em;
+    background-color: #f5f5f5;
+    padding: 1em 1em .8em 1em;
+    margin-bottom: 1.3em;
+    filter: drop-shadow(.3em .3em 0em #333);
+}
+
+.sweetfish h2 {
+    font-family: 'Sysfont', sans-serif;
+    border-bottom: 1px solid #333;
+}
+
+.sweetfish a {
+    text-decoration-color: #aaa;
+}
+
+.sweetfish a:hover {
+    text-decoration: underline;
+}
+
+/* PHILIA995 */
+.philia995.box {
+    background-image: url('../images/links-images/philia995bg.gif');
+}
+
+.philia995 * {
+    font-family: 'DS', monospace;
+    font-size: 1.25rem;
+}
+
+.philia995 h2, .philia995 p {
+    background-color: #fffcf5;
+    padding: 4px;
+    border-radius: 10px;
+    border: 3px solid lightgrey;
+}
+
+.philia995 h2 {
+    font-family: 'DigiBop', sans-serif;
+    font-size: 2.5rem;
+    color: #ede9d8;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #c2beae;
+    text-shadow: 2px 1px #c2beae;
+    left: -1%;
+    margin-left: 1px;
+    top: -10%;
+    margin-top: 1px;
+}
+
+.philia995 a {
+    color: -webkit-link;
+}
+
+.philia995 a:hover {
+    text-decoration: underline;
+}
+
+/* GETCUBED */
+.getcubed.box {
+    background-image: url('../images/links-images/mon3.png');
+    background-size: cover;
+    
+}
+
+.getcubed p, .getcubed h2 {
+    background-color: antiquewhite;
+    border: 2px solid navy;
+    padding: 5px;
+}
+
+.getcubed * {
+    font-family: -webkit-standard;
+}
+
+.getcubed h2 {
+    color: navy;
+}
+
+/* FIZZSEA */
+.fizzsea.box {
+    background-image: url('../images/links-images/fizzseabg.png');
+    background-size: contain;
+}
+
+.fizzsea h2 {
+    font-family: 'Mansalva', cursive;
+    color: #5e3bc4;
+}
+
+.fizzsea * {
+    font-family: 'Verdana', sans-serif;
+}
+
+.fizzsea p, .fizzsea h2 {
+    background-color: #fff1bc;
+    padding: 5px;
+    border: 2px solid #ae58d8;
+}
+
+.fizzsea a {
+    color: #9a30cf;
+    text-decoration: none;
+}
+
+/* NICKOLOX */
+.nickolox.box {
+    background-image: url('../images/links-images/bgStar2.gif');
+}
+
+.nickolox p, .nickolox h2 {
+    background-image: url('../images/links-images/nickoloxbg.png');
+}
+
+.nickolox * {
+    font-family: 'MS PGothic', sans-serif;
+    color: white;
+}
+
+.nickolox h2 {
+    font-family: 'Yukari', monospace;
+    font-size: 2rem;
+}

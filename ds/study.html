@@ -1,0 +1,125 @@
+<html lang="en">
+
+
+<!-- Mirrored from asters-asterisms.neocities.org/ds/study by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 14 Aug 2025 18:14:34 GMT -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>⛬ Aster's Asterisms ⛬</title>
+    <link href="../style.css" rel="stylesheet" type="text/css" media="all">
+    <style>
+        html {
+            background-image: url('../images/ds-study/bg.png');
+            background-size: cover;
+        }
+        #bookshelf {
+            position: absolute;
+            max-width: 40vh;
+            top: 10vh;
+            left: 70vw;
+        }
+        #beastiary {
+            position: absolute;
+            max-width: 25vh;
+            top: 28.5vh;
+            left: 73vw;
+            z-index: 1;
+        }
+        #beastiary-link {
+            top: 30vh;
+            left: 75vw;
+            z-index: 1;
+        }
+        #mao {
+            position: absolute;
+            max-width: 10vh;
+            top: 69vh;
+            left: 73vw;
+            z-index: 1;
+        }
+        #text {
+            /* display: none;*/
+            top: 72vh;
+            left: 78vw;
+            z-index: 1;
+        }
+        #painting {
+            position: absolute;
+            max-width: 50vh;
+            top: 20vh;
+            left: 35vw;
+        }
+        #painting-link {
+            top: 30vh;
+            left: 45vw;
+        }
+        #map {
+            position: absolute;
+            max-width: 40vh;
+            top: 20vh;
+            left: 2vw;
+        }
+        #map-link {
+            top: 29vh;
+            left: 8vw;
+        }
+        #papers {
+            position: absolute;
+            max-width: 40vh;
+            top: 75vh;
+            left: 37vw;
+        }
+        #papers-link {
+            top: 75vh;
+            left: 43vw;
+        }
+    </style>
+    <script defer>
+        let text = document.getElementById("text");
+
+        function changeMao() {
+            if (text.style.display = "none") {
+                text.style.display = "block"
+            } else {
+                text.style.display = "none"
+            }
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <h1><a href="foyer.html" style="color: white;">Study</a></h1>
+    </header>
+    <div class="image">
+        <a href="../majulah/index.html">
+            <img src="../images/singapore.png" id="map" alt="Map of Singapore.">
+            <p class="link" id="map-link">Read the map?</p>
+        </a>
+    </div>
+    <div class="image">
+        <a href="../bestiary/index.html">
+            <img src="../images/beastiary.png" id="beastiary" alt="Old books.">
+            <p class="link" id="beastiary-link">Pull a book?</p>
+        </a>
+    </div>
+    <div class="image">
+        <a href="../muse/index.html">
+            <img src="../images/ds-study/papers.png" id="papers" alt="Scattered appers.">
+            <p class="link" id="papers-link">Read papers?</p>
+        </a>
+    </div>
+    <img src="../images/bookshelf.png" id="bookshelf" alt="A bookshelf.">
+    <div onclick="changeMao()">
+        <img src="../images/mao.png" id="mao" alt="A cat." >
+    </div>
+    <p id="text" class="info" lang="zh">我睡觉-- 别叫醒我--</p>
+    <div class="image">
+        <a href="about/index.html">
+            <img src="../images/painting.png" id="painting" alt="Roses of Heliogabalus painting.">
+            <p class="link" id="painting-link">Gaze closer?</p>
+        </a>
+    </div>
+</body>
+
+<!-- Mirrored from asters-asterisms.neocities.org/ds/study by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 14 Aug 2025 18:14:38 GMT -->
+</html>

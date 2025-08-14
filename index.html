@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from asters-asterisms.neocities.org/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 14 Aug 2025 18:14:19 GMT -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Once a coin</title>
+    <link href="style.css" rel="stylesheet" type="text/css" media="all">
+    <style>
+        html {
+            background-color: black;
+            background-image: url('images/background.png');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center;
+        }
+        img {
+            position: absolute;
+        }
+        #lantern1 {
+            width: 200px; 
+            left: 60vw; 
+            top: 230px;
+            animation: lanternOne 15s alternate infinite;
+            z-index: 0;
+        }
+        #lantern2 {
+            width: 100px;
+            left: 49vw;
+            top: 390px;
+            filter: brightness(80%);
+            animation: lanternTwo 25s alternate infinite;
+            z-index: 0;
+        }
+        #lantern3 {
+            width: 50px;
+            left: 52.5vw;
+            top: 460px;
+            filter: brightness(25%);
+            z-index: 0;
+        }
+        .lightbox {
+            position: absolute;
+            border-radius: 50%;
+            opacity: 50%;
+            background-color: orange;
+        }
+        .lightbox#one {
+            left: 66vw;
+            top: 390px;
+            box-shadow: 0px 0px 100px 140px orange;
+        }
+        .lightbox#two {
+            left: 52vw;
+            top: 456px;
+            box-shadow: 0px 0px 100px 80px orange;
+        }
+        .lightbox p {
+            opacity: 0%;
+            font-size: xx-small;
+        }
+        #window {
+            position: absolute;
+            border-radius: 50%;
+            opacity: 50%;
+            background-color: white;
+            box-shadow: 0px 0px 100px 40px white;
+            left: 23.5vw;
+            top: 38vh;
+            animation: flicker 60s linear infinite;
+        }
+        #window p {
+            opacity: 0%;
+            font-size: xx-small;
+        }
+        #info { 
+            margin-top: 25%;
+            width: 50vw;
+            z-index: 1;
+        }
+        #tw {
+            margin-top: 20%;
+            width: 50vw;
+            z-index: 1;
+        }
+        .box {
+            border: 2px solid black;
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+        * {
+            color: white;
+        }
+        a {
+            color: white;
+        }
+        section {
+            position: relative;
+        }
+        @keyframes flicker {
+            0%, 11%, 13%, 27%, 29%, 44%, 46%, 66%, 68%, 76%, 78%, 91%, 93% {
+                opacity: 0%;
+            }
+            12%, 28%, 45%, 67%, 77%, 92% {
+                opacity: 90%;
+            }
+        }
+        @keyframes lanternOne {
+            50% {
+                transform: rotate(20deg);
+            }
+            100% {
+                transform: rotate(-20deg);
+            }
+        }
+        @keyframes lanternTwo {
+            50% {
+                transform: rotate(-10deg);
+            }
+            100% {
+                transform: rotate(10deg);
+            }
+        }
+        @media only screen and (max-width: 600px) {
+            #lantern1, #lantern2, #lantern3, #window, .lightbox {
+                display: none;
+                animation: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="window"><p>o</p></div>
+    <img src="images/lanternLight.png" id="lantern3" alt="A Chinese lantern.">
+    <img src="images/lanternLight.png" id="lantern2" alt="A Chinese lantern.">
+    <img src="images/lanternLight.png" id="lantern1" alt="A Chinese lantern.">
+    <div class="lightbox" id="one"><p>o</p></div>
+    <div class="lightbox" id="two"><p>o</p></div>
+    <main>
+<section id="header" class="box" style="border-bottom: 1px solid #444; padding-bottom: 0.5em; margin-bottom: 1em;">
+    <h1 style="margin: 0; letter-spacing: 0.1em;">ONCE A COIN</h1>
+    <p style="margin: 0; font-style: italic; color: #aaa;">"All currency bleeds, but only some remember their first sin."</p>
+</section>
+
+<section id="info" class="box">
+    <p><a style="color: white; text-decoration: none;">You're holding something that was once a coin.</a> Smooth now from centuries of touch, its markings worn to ghosts. Kings and queens have held it, beggars and thieves have traded it, wars were fought for its likeness. Now it rests in your palm—weightless, faceless, its purpose forgotten.</p>
+    <p>As you rub your thumb across its surface, the metal grows warm. In the dim light, you see faint etchings reappear—not of nations or rulers, but of a door. A gate. A threshold. The coin thrums with something older than mint marks, older than money.</p>
+    <img src="BFC (1).png" alt="A tarnished coin, its surface shifting between a faded crown and a door-shaped scar" style="display: block; margin: 1em auto; max-width: 200px;">
+    <p class="center"><a href="door.html">PRESS THE COIN TO YOUR TEMPLE</a></p>
+    <p class="center">or <a href="webrings.html">THROW IT INTO THE DARK (WEBRINGS)</a></p>
+</section>
+
+<section id="tw" class="box">
+    <p><strong>WARNING:</strong> This coin has been licked by emperors, swallowed by martyrs, and left on the eyes of the dead. 18+ (themes of economic horror, recursive debt, and metaphysical inflation). <a href="credits.html">CREDITS</a>.</p>
+</section>
+    </main>
+</body>
+
+<!-- Mirrored from asters-asterisms.neocities.org/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 14 Aug 2025 18:14:21 GMT -->
+</html>

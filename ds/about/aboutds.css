@@ -1,0 +1,216 @@
+:root {
+    --bg: #2d1c15;
+    --box-bg: rgba(253, 242, 222, .90);
+    --alt-bg: #f6eae4;
+}
+
+@font-face {
+    font-family: 'Comic Mono';
+    src: url('../../fonts/ComicMono.ttf') format(truetype);
+}
+
+body {
+    justify-items: right;
+}
+
+html {
+    background-image: url('../../images/about/roses-back.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.box {
+    background-color: var(--box-bg);
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 10px 15px;
+    margin: 5px 0px;
+}
+
+
+.col1 .box {
+    margin-left: 12vw;
+}
+
+h2 em {
+    font-family: 'Comic Mono', monospace;
+}
+
+#name {
+    text-align: center;
+    background: linear-gradient(to right, #F0A8D0 40%, #F7B5CA 45%, #FFC6C6 50%, #FFCDB2 55%);
+    color: transparent;
+    background-clip: text;
+}
+
+ul {
+    list-style-type: "⁂ ";
+}
+
+#result {
+    background: linear-gradient(to right, #ffadad 10%, #ffd6a5 20%, #fdffb6 25%, #caffbf 30%, #9bf6ff 50%, #a0c4ff 60%, #bdb2ff 75%, #ffc6ff 100%);
+    color: transparent;
+    background-clip: text;
+    font-weight: bold;
+}
+
+#facts {
+    background-color: rgba(174, 24, 24, 0.5);
+    border-radius: 20px;
+    border-left: 5px solid black;
+    border-right: 5px solid black;
+    overflow-y: scroll;
+    height: 8vh;
+    scrollbar-width: none;
+    padding: 5px;
+}
+
+#generate {
+    background-color: #dec6a0;
+    border: 1px solid black;
+}
+
+#border-right {
+    border-right: 2px solid black;
+}
+
+#recommendations {
+    overflow-y: scroll;
+    scrollbar-width: none;
+    height: 10vh;
+}
+
+.button {
+    text-align: center;
+    margin-top: 5px;
+}
+
+div.inner-six-col img {
+    position: relative;
+}
+
+#buddhatext {
+    top: 33vh;
+    left: 53vw;
+    display: none; 
+}
+
+#filmtext {
+    display: none;
+    top: 33vh;
+    left: 59vw;
+}
+
+#bugtext {
+    display: none;
+    top: 33vh;
+    left: 65vw;
+}
+
+#birdtext {
+    display: none;
+    top: 33vh;
+    left: 71vw;
+}
+
+#booktext {
+    display: none;
+    top: 33vh;
+    left: 77vw;
+}
+
+#musicaltext {
+    display: none;
+    top: 33vh;
+    left: 83vw;
+}
+
+#vgtext {
+    display: none;
+    top: 51.5vh;
+    left: 53vw;
+}
+
+#horrortext {
+    display: none;
+    top: 51.5vh;
+    left: 65vw;
+}
+
+#albumtext {
+    display: none;
+    top: 51.5vh;
+    left: 65vw;
+}
+
+#paintingtext {
+    display: none;
+    top: 51.5vh;
+    left: 71vw;
+}
+
+#pokemontext {
+    display: none;
+    top: 51.5vh;
+    left: 77vw;
+}
+
+#animetext {
+    display: none;
+    top: 51.5vh;
+    left: 83vw;
+}
+
+#horrortext a {
+    color: darkred;
+}
+
+a {
+    color: darkgoldenrod;
+    text-decoration: underline;
+    text-decoration-style: wavy;
+}
+
+#rondrova {
+    position: absolute;
+    top: 54vh;
+    left: 80vw;
+    max-width: 12vw;
+    text-align: justify;
+    overflow: scroll;
+    scrollbar-width: none;
+    max-height: 30vh;
+}
+
+#roses-part {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+#book {
+    max-width: 50vw;
+}
+
+.inner-six-col {
+    grid-template-columns: repeat(6, 80px);
+}
+
+#text-change {
+    position: absolute;
+    font-size: 2rem;
+    top: 54vh;
+    left: 68vw;
+}
+
+#text-change a {
+    color: black;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 600px) {
+    #roses-part {
+        display: none;
+    }
+}

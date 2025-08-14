@@ -1,0 +1,50 @@
+#book {
+    background-image: url("../images/about/book.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100vw 100vh;
+    width: 97.5vw;
+    height: 95vh;
+}
+
+.col1 {
+    position: relative;
+    margin-left: 10vw;
+}
+
+.col2 {
+    position: relative;
+    margin-left: 6vw;
+    overflow: scroll;
+    scrollbar-width: none;
+    height: 88vh;
+}
+
+img {
+    border: 2px solid black;
+    margin-top: 5vw;
+    width: 35vw;
+}
+
+.caption {
+    text-align: center;
+    font-style: italic;
+}
+
+#text-change a {
+    color: black;
+    text-decoration: none;
+    font-size: 2em;
+}
+
+.prev {
+    position: absolute;
+    bottom: 5vh;
+    left: 53vw;
+}
+
+.next {
+    position: absolute;
+    bottom: 5vh;
+    right: 8vw;
+}

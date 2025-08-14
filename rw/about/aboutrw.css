@@ -1,0 +1,103 @@
+:root {
+    --text: #00FF00
+}
+
+html {
+    background-color: black;
+    scrollbar-color: var(--text) black;
+    scrollbar-width: thin;
+}
+
+.crt::before {
+    /* Code from: https: //aleclownes.com/2017/02/01/crt-display.html */
+    content: " ";
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.25) 50%), linear-gradient(90deg, rgba(255, 0, 0, 0.06), rgba(0, 255, 0, 0.02), rgba(0, 0, 255, 0.06));
+    z-index: 2;
+    background-size: 100% 2px, 3px 100%;
+    pointer-events: none;
+}
+
+* {
+    color: #00FF00
+}
+
+.interests {
+    height: 125px;
+    width: 125px;
+}
+
+.interests img {
+    opacity: 0.5;
+    min-height: 125px;
+    min-width: 125px;
+    contain: size;
+}
+
+.interests:hover img {
+    opacity: 1;
+}
+
+.interests p {
+    position: relative;
+    bottom: 90px;
+    background-color: black;
+    width: 125px;
+}
+
+.inner-five-col {
+    grid-template-columns: repeat(auto-fill, minmax(0, 125px));
+}
+
+.inner-five-col * {
+    text-align: center;
+}
+
+.inner-three-col {
+    grid-template-columns: repeat(3, 33%);
+    text-align: center;
+}
+
+summary {
+    font-size: 1.17em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+details details {
+    list-style-type: none;
+    border: #00FF00 2px dashed;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+details ul {
+    border: #00FF00 2px dashed;
+    padding: 5px 5px 5px 20px;
+    margin-bottom: 5px;
+}
+
+.normal {
+    font-size: 1em;
+}
+
+a {
+    color: var(--text);
+}
+
+hr {
+    border: var(--text) 1px solid;
+}
+
+.aboutimg {
+    min-width: 300px;
+    max-width: 25vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
